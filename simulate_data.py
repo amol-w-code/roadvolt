@@ -14,7 +14,7 @@ import math
 SERVER_URL = "http://127.0.0.1:8000/energy"
 
 def generate_reading(tick: int) -> dict:
-    """Generates realistic sensor values with time-varying traffic."""
+    """Generates realistic sensor values with    time-varying traffic."""
 
     # Traffic cycle: more vehicles at certain times
     base_traffic = 0.5 + 0.5 * math.sin(tick / 10)
