@@ -17,9 +17,9 @@ from datetime import datetime
 #  Page Config
 # ─────────────────────────────────────────
 st.set_page_config(
-    page_title="RoadVolt Dashboard",
+    page_title="RoadVolt  Dashboard",
     page_icon="⚡",
-    layout="wide",
+    layout=" wide",
     initial_sidebar_state="expanded"
 )
 
@@ -647,8 +647,8 @@ div[data-testid="stPlotlyChart"] {
     background: rgba(5, 14, 32, 0.6);
     border: 1px solid var(--border-dim);
     border-radius: var(--radius-md);
-    overflow: hidden;
-    padding: 2px;
+    overflow:   hidden;
+    padding:  2px;
     transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
 div[data-testid="stPlotlyChart"]:hover {
